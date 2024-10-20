@@ -1,0 +1,26 @@
+{
+  "name": "oauth2-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.14.2",
+    "nodemon": "^3.1.7",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
