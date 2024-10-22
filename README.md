@@ -11,6 +11,7 @@ Git: You’ll need Git to clone the repository. Install it from here.
 
 ## Tutorial
 [Demystifying OAuth 2.0 Flow: Unleashed With Google Authentication (Dockerized)](https://medium.com/jungletronics/demystifying-oauth-2-0-flow-unleashed-b6d1e652bbd5)
+
 ## Installation
 
 #### Step 1: Clone the Repository
@@ -36,16 +37,19 @@ Check for any running Docker containers:
     docker ps -a
 
 Build and start the application:
+
     sudo docker compose up --build
 
 This command will:
 
-```Build the Docker images as defined in the docker-compose.yml file.
-   Start the containers and the application.
-   Verify that the containers are running
+```Build the Docker images as defined in the *docker-compose.yml* file.
+   Start the containers and the application.   
 ```
+Verify that the containers are running.
 
-If everything works correctly, you should see the application logs in the terminal. You can check the status of running containers:
+```If everything works correctly, you should see the application logs in the terminal.
+``` 
+You can check the status of running containers:
 
     docker ps
 
@@ -74,10 +78,12 @@ You can use this command every time you need to restart the application, ensurin
 Here’s a quick summary of the commands you’ll use:
 
 1 . Clone the repo:
+
     git clone https://github.com/giljr/oauth2-node-api-v2.git
     cd oauth2-node-api-v2
 
 2 . Build and run the Docker containers:
+
     sudo docker compose up --build
 
 3 . Stop and remove the containers:
