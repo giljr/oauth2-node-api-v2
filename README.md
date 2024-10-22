@@ -42,12 +42,14 @@ Build and start the application:
 
 This command will:
 
-```Build the Docker images as defined in the *docker-compose.yml* file.
-   Start the containers and the application.   
+```
+Build the Docker images as defined in the *docker-compose.yml* file.
+Start the containers and the application.   
 ```
 Verify that the containers are running.
 
-```If everything works correctly, you should see the application logs in the terminal.
+```
+If everything works correctly, you should see the application logs in the terminal.
 ``` 
 You can check the status of running containers:
 
