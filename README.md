@@ -10,7 +10,7 @@ Docker: If you don’t have Docker installed, follow the installation instructio
 Git: You’ll need Git to clone the repository. Install it from here.
 
 ## Tutorial
-[TODO]()
+[Demystifying OAuth 2.0 Flow: Unleashed With Google Authentication (Dockerized)](https://medium.com/jungletronics/demystifying-oauth-2-0-flow-unleashed-b6d1e652bbd5)
 ## Installation
 
 #### Step 1: Clone the Repository
